@@ -1,0 +1,54 @@
+@import './base.css';
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-weight: normal;
+}
+
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+.card {
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(196, 202, 226, 0.2);
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 8rem;
+    cursor: pointer;
+}
+
+.card-lg {
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(196, 202, 226, 0.2);
+    margin-bottom: 1rem;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    position: static;
+}
+
+.card-lg:hover {
+    background: yellow;
+}
+
+.card-pokemon {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(196, 202, 226, 0.2);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: transform 350ms;
+}
+
+.btn {
+    width: 7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
